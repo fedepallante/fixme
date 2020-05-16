@@ -1,0 +1,29 @@
+baseURL = "http://localhost:51340/"
+languageCode = "en-us"
+title = "Federico's Site"
+
+[params]
+favicon = "images/favicon.png"
+herotitle = "Need a repair?"
+herolink = ""
+herolinktext = "Chat with us"
+contact = "Send me a message and I will get back as soon as possible."
+
+[hero]
+
+[menu]
+    [[menu.nav]]
+        name    = "about"
+        pre = "<i class='fas fa-home'></i>"
+        url     = "about"
+        weight  = -1
+    [[menu.nav]]
+        name    = "blog"
+        pre = "<i class='fas fa-list'></i>"
+        url     = "post"
+        weight  = -2
+    [[menu.nav]]
+        name    = "contact"
+        pre = "<i class='fas fa-envelope'></i>"
+        url     = "contact"
+        weight  = -3
