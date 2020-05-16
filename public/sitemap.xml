@@ -3,43 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:51340/</loc>
+    <loc>https://fedepallante.github.io/fixme/</loc>
     <lastmod>2020-05-11T20:20:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:51340/first-page/</loc>
+    <loc>https://fedepallante.github.io/fixme/first-page/</loc>
     <lastmod>2020-05-11T20:20:41-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:51340/contact/</loc>
+    <loc>https://fedepallante.github.io/fixme/contact/</loc>
     <lastmod>2020-04-23T20:03:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:51340/about/</loc>
+    <loc>https://fedepallante.github.io/fixme/about/</loc>
     <lastmod>2020-04-23T19:57:09+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:51340/categories/air/</loc>
+    <loc>https://fedepallante.github.io/fixme/categories/air/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:51340/categories/</loc>
+    <loc>https://fedepallante.github.io/fixme/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:51340/post/air-nation-list-style/</loc>
+    <loc>https://fedepallante.github.io/fixme/post/air-nation-list-style/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:51340/post/</loc>
+    <loc>https://fedepallante.github.io/fixme/post/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:51340/tags/</loc>
+    <loc>https://fedepallante.github.io/fixme/post/samsung-repair/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fedepallante.github.io/fixme/tags/</loc>
   </url>
   
 </urlset>

@@ -217,10 +217,10 @@ nav ul li>a:only-child::after {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  min-height: 400px;
+  min-height: 500px;
   padding: 0;
   width: 92%;
-  margin-top: -100px;
+  margin-top: -25px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -228,18 +228,19 @@ nav ul li>a:only-child::after {
 @media (min-width: 400px) {
   .main {
     width: 85%;
+    margin-top: -80px;
     padding: 0; }
 }
 
 @media (min-width: 550px) {
   .main {
-    margin-top: -100px;
+    margin-top: -80px;
     width: 80%; }
   }
 
 
 .section {
-  padding: 8rem 0 20rem;
+  padding: 8rem 0 21rem;
 }
 
 .section-heading,
@@ -251,7 +252,7 @@ nav ul li>a:only-child::after {
     background: #222;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 250px;
     color: #eeeeee;
     display: flex;
     justify-content: center;
@@ -354,4 +355,74 @@ footer {
   .right {
     display: none;
   }
+}
+
+.covidcovid{
+  display: block;
+}
+
+.container-covid{
+  background: #33C3F0;
+  position: relative;
+  z-index: 99999994;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  color: #ffffff;
+  margin: 5px 0;
+}
+.logo-covid{
+  height: 43px;
+  width: 85px;
+  display: inline-block;
+  overflow: hidden;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.container-covid-mid{
+  margin: 0 16px 0 12px;
+}
+
+.messageHeader-covid-main{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0;
+  display: block;
+}
+
+.messageHeader-covid-secondary{
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.button-covid-main{
+  flex-grow: 0;
+  margin-top: 0;
+  position: static;
+  color: #fff;
+  border: 1px solid #FFFFFF;
+}
+.dismissButton{
+  cursor: pointer;
+  padding-top: 6px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-left: 10px;  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  font-size: 15px;
+  line-height: 22px;
 }
