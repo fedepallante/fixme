@@ -35,9 +35,9 @@ jobs:
     # Commit site to new branch:
     - name: Deploy to GH Pages
       uses: crazy-max/ghaction-github-pages@v2.0.0
-        with: 
-          targets: gh-pages
-          build_dir: public
-        env:
-          GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN}}
+      with:
+        targets: gh-pages
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN}}
       
