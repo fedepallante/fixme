@@ -13,13 +13,15 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="https://fedepallante.github.io/fixme/css/normalize.css">
+<link rel="stylesheet" href="https://competent-stonebraker-be0247.netlify.app/css/normalize.css">
 
-<link rel="stylesheet" href="https://fedepallante.github.io/fixme/css/skeleton.css">
+<link rel="stylesheet" href="https://competent-stonebraker-be0247.netlify.app/css/skeleton.css">
 
-<link rel="stylesheet" href="https://fedepallante.github.io/fixme/css/custom.css">
+<link rel="stylesheet" href="https://competent-stonebraker-be0247.netlify.app/css/custom.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 
 
 <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
@@ -52,23 +54,23 @@
             Sugoi</span></label>
     <input type="checkbox" id="drop" />
     <ul class="menu">
-        <li><a href="https://fedepallante.github.io/fixme/"><span><i class="fas fa-fire" aria-hidden="true"></i>
+        <li><a href="https://competent-stonebraker-be0247.netlify.app/"><span><i class="fas fa-fire" aria-hidden="true"></i>
                     Sugoi</span></a></li>
         
         <li class="u-pull-right">
-            <a href="https://fedepallante.github.io/fixme/contact" class="Members">
+            <a href="https://competent-stonebraker-be0247.netlify.app/contact" class="Members">
                 <span><i class='fas fa-envelope'></i> contact</span>
             </a>
         </li>
         
         <li class="u-pull-right">
-            <a href="https://fedepallante.github.io/fixme/post" class="Members">
+            <a href="https://competent-stonebraker-be0247.netlify.app/post" class="Members">
                 <span><i class='fas fa-list'></i> blog</span>
             </a>
         </li>
         
         <li class="u-pull-right">
-            <a href="https://fedepallante.github.io/fixme/about" class="Members">
+            <a href="https://competent-stonebraker-be0247.netlify.app/about" class="Members">
                 <span><i class='fas fa-home'></i> about</span>
             </a>
         </li>
@@ -117,5 +119,16 @@
          &copy; 2020 
         <a href="https://github.com/aanupam23/hugo-sugoi" title="hugo-sugoi" alt="hugo-sugoi" target="_blank">Hugo-Sugoi</a>
     </span>
-</footer></body>
+</footer><script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    </body>
 </html>
